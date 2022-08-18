@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bellota+Text:wght@300;400&family=Caveat&family=Gloria+Hallelujah&family=Josefin+Sans:wght@200&family=Neucha&family=Pangolin&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bellota+Text:wght@300;400&family=Caveat&family=Gloria+Hallelujah&family=Josefin+Sans:wght@200&family=Mouse+Memoirs&family=Neucha&family=Pangolin&family=Quicksand&display=swap');
+html{
+background:url(background.png) no-repeat fixed center / cover;
+    position: relative;
+    overflow-y: scroll;
+
+}
+header{
+    background:black;
+}
+
+h1{
+    text-align: center;
+     font-family: Neucha;
+    font-size: 35px;
+    color:white;
+}
+.text{
+    font-family: neucha;
+    font-size: 25px;
+    color:white;
+    width: 1420px;
+}
+nav{
+    background: black;
+    position: relative;
+    top:-25;
+    justify-content: space-between;
+}
+.back{
+    font-family: Mouse Memoirs;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color:black;
+    margin: 250px;
+
+}
+.back:hover{
+    box-shadow: 2px 2px 20px 2px #ff0000;
+    border-radius: 20%;
+    background:white;
+    color:black;
+    transition: 0.3s ease-out;
+    font-size: 34;
+}
+.killers{
+    font-family: Mouse Memoirs;
+    color:red;
+    text-decoration: none;
+    font-size: 30px;
+    background:black;
+    margin: 150px;
+}
+.killers:hover{
+    font-size: 34px;
+        box-shadow: 2px 2px 20px 2px #d800ff;
+background:red;
+    color:white;
+    transition: 0.3s ease-out;
+    border-radius:24%;
+}
+.more{
+
+    font-family: Mouse Memoirs;
+        color:#0089ff;
+    text-decoration: none;
+    font-size: 30px;
+    background:black;
+    margin: 270px;
+}
+.more:hover{
+    font-size: 34px;
+        box-shadow: 2px 2px 20px 2px #00baff;
+    border-radius: 20%;
+    background:white;
+    color:#0089ff;
+    transition: 0.3s ease-out;
+}
+.bild{
+    color:red;
+    font-size: 25px;
+    font-family: neucha;
+}
+.perv{
+    color:#e1e331;
+    font-size: 25px;
+    font-family: neucha;
+}
+.vtor{
+    color:#17f228;
+    font-size: 25px;
+    font-family: neucha;
+}
+.tret{
+    color:#9d00ff;
+    font-size: 25px;
+    font-family: neucha;
+}
+img{
+    background: black;
+    border:3px solid white;
+    border-radius: 10%;
+}
+
+.namem{
+    font-size: 30px;
+    color:white;
+    font-family: neucha;
+    position: relative;
+    left:450px;
+    border-bottom: 10px solid white;
+    border-top: 10px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    background: black;
+    text-align: center;
+    border-radius: 12%;
+    width:450px;
+}
+table{
+    border:1px solid black;
+    width: 1420px;
+}
+.opic{
+    position: relative;
+    top:-100px;
+    opacity:0;
+    font-family: neucha;
+    width:150px;
+    font-size:15px;
+    width: 200px;
+    color:white;
+    margin:0px;
+    padding: 0px;
+
+}
+.opic:hover{
+    opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 23px;
+}
+.skil{
+    position: relative;
+    top:22px;
+    background: black;
+}
+.skil2{
+    position: relative;
+    top:38px;
+    background: black;
+}
+.skil3{
+    position: relative;
+    top:26px;
+    background: black;
+}
+.skil4{
+    position: relative;
+    top:43px;
+    background: black;
+}
+.skil5{
+    position: relative;
+    top:35px;
+    background: black;
+}
+.skil6{
+    position: relative;
+    top:-10px;
+    background: black;
+}
+.skil7{
+    position: relative;
+    top:8px;
+    background: black;
+}
+.skil8{
+    position: relative;
+    top:52px;
+    background: black;
+}
+.skil9{
+    position: relative;
+    top:-11;
+    background: black;
+}
+.skil10{
+    position: relative;
+    top:-31px;
+    background: black;
+}
+.skil11{
+    position: relative;
+    top:70px;
+    background: black;
+}
+.skil12{
+    position: relative;
+    top:35px;
+    background: black;
+}
+.skil13{
+    position: relative;
+    top:15px;
+    background: black;
+}
+.skil14{
+    position: relative;
+    top:50;
+    background: black;
+}
+.skil15{
+    position: relative;
+    top:-23px;
+    background: black;
+}
+.skil16{
+    position: relative;
+    top:25px;
+    background: black;
+}
+.skil17{
+    position: relative;
+    top:-38px;
+    background: black;
+
+}
+.skil18{
+    position: relative;
+    top:100px;
+    background: black;
+}
+.opic1{
+   position: relative;
+    top:-100px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+     width: 250px;
+}
+.opic1:hover{
+    opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+.opic3{
+    position: relative;
+    top:-100px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+     width: 250px;
+}
+.opic3:hover{
+    opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+.opic4{
+    position: relative;
+    top:-100px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+    width: 250px;
+}
+.opic4:hover{
+       opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+.opic5{
+     position: relative;
+    top:-120px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+     width: 250px;
+}
+.opic5:hover{
+       opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+.opic6{
+    position: relative;
+    top:-120px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+     width: 250px;
+}
+.opic6:hover{
+    opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(130px);
+    font-size: 24px;
+    color:white;
+}
+.opic7{
+     position: relative;
+    top:-120px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+}
+.opic7:hover{
+       opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+.opic8{
+     position: relative;
+    top:-120px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+}
+.opic8:hover{
+       opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+.opic9{
+     position: relative;
+    top:-120px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+}
+.opic9:hover{
+       opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(130px);
+    font-size: 24px;
+    color:white;
+}
+.opic10{
+     position: relative;
+    top:-120px;
+    opacity:0;
+    font-family: neucha;
+    width:200px;
+    font-size:15px;
+
+}
+.opic10:hover{
+       opacity: 1;
+    transition:0.2s ease-in;
+    transform: translateX(140px);
+    font-size: 24px;
+    color:white;
+}
+td{
+    border:5px solid black;
+    height: 50px;
+}
+.manya{
+    color:red;
+    font-family: pangolin;
+    text-decoration:none;
+    font-size:25px;
+}
+.manya:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+    color:#00ff00;
+    font-size: 27px;
+    opacity: 1;
+    margin:5px;
+}
+.men{
+    font-family: pangolin;
+    color:white;
+    font-size: 25px;
+      position: fixed;
+    right:0px;
+    top:20px;
+  width: 150px;
+    border:4px solid #ff0093;
+    border-radius: 5%;
+    opacity: 0.3;
+
+}
+.men:hover{
+    font-family: pangolin;
+     font-size: 25px;
+    opacity: 1;
+    transition: 0.3s ease-out;
+}
+footer{
+    color:black;
+ background-color: black;
+    padding:5px;
+}
+.creators{
+    color:white;
+    font-family: Mouse Memoirs;
+    text-decoration: none;
+    background: black;
+    font-size: 35px;
+    margin:350px;
+}
+.creators::before{
+    position: absolute;
+    left:457px;
+    content: url(before1.png);
+        opacity:0;
+
+}
+
+.creators:hover::before{
+    opacity: 1;
+    transition: 0.9s ease-out;
+}
+.creators:hover{
+    font-size: 40px;
+    background-color: white;
+    color:black;
+    border-radius:20%;
+    text-decoration: underline;
+    transition: 0.4s ease-out;
+    box-shadow: 2px 2px 20px 5px #eb27cd;
+}
+.helper{
+    color:white;
+    font-size: 35px;
+    font-family: Mouse Memoirs;
+    background-color:black;
+}
+.helper::before{
+    content: url(before2.png);
+    opacity: 0;
+    position: absolute;
+    right:780px;
+}
+.helper:hover::before{
+    opacity: 1;
+    transition: 0.5s ease-out;
+}
+.helper:hover{
+    font-size: 40px;
+    background-color:white;
+    color:black;
+    border-radius: 20%;
+    transition: 0.4s ease-in;
+    text-decoration: underline;
+    box-shadow: 2px 2px 20px 2px #c86fff;
+}
+ .preloader {
+  position: fixed;
+  overflow: hidden;
+  background: black;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  top: 100%;
+  width: 1600px;
+  height:1200px;
+  margin-top: -32px;
+  margin-left: -32px;
+  background: url('loader.gif') no-repeat 50% 50%; /*расположение (url) изображения gif и др. параметры*/
+}
+
+.loaded_hiding .preloader {
+  transition: 10s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
